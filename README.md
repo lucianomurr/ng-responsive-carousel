@@ -11,6 +11,6 @@ Responsive carousel with lazy loading image written in AngularJS
 
 
 ## Todo:
- - Add templating
+ - Add directive templating
  - Add keyboard arrow (left/right) controls
  - Add touch-swipe controls 
