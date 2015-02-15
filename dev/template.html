@@ -1,0 +1,13 @@
+<div class="rc-container">
+   <ul class="rc">
+      <li ng-repeat="item in data" class="rc-item" rc-src="{{item.url}}"></li>
+   </ul>
+   <div class="rc-controls">
+      <div class="rc-control rc-control-prev" ng-click="goToPrev()">
+         <i class="fa fa-chevron-left"></i>
+      </div>
+      <div class="rc-control rc-control-next" ng-click="goToNext()">
+         <i class="fa fa-chevron-right"></i>
+      </div>
+   </div>
+</div>

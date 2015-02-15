@@ -1,0 +1,28 @@
+{
+  "name": "ng-responsive-slideshow",
+  "version": "0.0.1",
+  "authors": [
+    "Luciano Murruni <luciano.murruni@gmail.com>"
+  ],
+  "appPath": {
+    "dist": "dist",
+    "devel": "dev",
+    "test": "test"
+  },
+  "description": "Responsive carousel with lazy loading image written in AngularJS",
+  "keywords": [
+    "Angular",
+    "Lazy",
+    "Loading",
+    "Image",
+    "Carousel"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
