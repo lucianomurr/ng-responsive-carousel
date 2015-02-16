@@ -16,3 +16,4 @@ http://www.murruni.it/ng-responsive-carousel/
  - Add directive templating
  - Add keyboard arrow (left/right) controls
  - Add touch-swipe controls 
+ - Add Timer
