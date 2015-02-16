@@ -19,10 +19,22 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
+    "dev",
     "node_modules",
     "bower_components",
+    "demo",
     "test",
-    "tests"
-  ]
+    ".bowerrc",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    "bower.json",
+    "Gruntfile.js",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "angular": ">=1.3.11",
+    "underscore": "~1.5.2"
+  },
 }
