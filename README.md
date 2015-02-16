@@ -2,6 +2,7 @@
 
 ## Description:
 Responsive carousel with lazy loading image written in AngularJS
+Initial fork from: https://github.com/maartenvanbenthem/angular-carrousel
 
 # Demo:
 http://www.murruni.it/ng-responsive-carousel/
@@ -9,7 +10,9 @@ http://www.murruni.it/ng-responsive-carousel/
 ## Install:
 `bower install ng-responsive-carousel`
 
+
 ## How to use it
+
 
 
 ## Todo:
