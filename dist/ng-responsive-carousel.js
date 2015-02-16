@@ -101,8 +101,6 @@
 
           function goToSlide(index) {
 
-            //console.log("Go to slide " + index);
-
             //check if the carrousel already is animating
             if (animating) {
               //console.error("already animating");
@@ -124,21 +122,15 @@
 
               var current = slides[index];
 
-              current.addEventListener('webkitTransitionEnd', function() {
+              angular.element(current).bind('transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd', function() {
                 transitionDone();
               });
-              current.addEventListener('oTransitionEnd', function() {
-                transitionDone();
-              }, false);
-              current.addEventListener('webkitTransitionEnd', function() {
-                transitionDone();
-              }, false);
 
             } else {
               //console.error("Image index out of range");
             }
 
-            if (index < totalSlides - 1) {
+            if (index < (totalSlides - 1)) {
               angular.element(slides[index + 1]).addClass('next');
               var image = angular.element(slides[index + 1]);
               loadImage(image);
