@@ -1,6 +1,7 @@
 {
-  "name": "ng-responsive-slideshow",
-  "version": "0.0.1",
+  "name": "ng-responsive-carousel",
+  "version": "0.1.1",
+  "main": "dist/ng-responsive-carousel.min.js",
   "authors": [
     "Luciano Murruni <luciano.murruni@gmail.com>"
   ],
@@ -17,7 +18,6 @@
     "Image",
     "Carousel"
   ],
-  "license": "MIT",
   "ignore": [
     "dev",
     "node_modules",
@@ -34,7 +34,7 @@
     "README.md"
   ],
   "dependencies": {
-    "angular": ">=1.3.11",
-    "underscore": "~1.5.2"
+    "angular": ">=1.3.11"
   },
+  "license": "MIT"
 }
